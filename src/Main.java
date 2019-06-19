@@ -21,7 +21,12 @@ public class Main {
                         System.out.println("SET A BET");
                         System.out.println("Enter 0 to stop betting");
 
+
                         bet = Utils.getIntInput();
+                        while(bet < 0 || bet > credits) {
+                            System.out.println("Cannot enter a bet that is less than zero or greater than current credit total");
+                            bet = Utils.getIntInput();
+                        }
                         if (bet == 0) {
                             break;
                         }
