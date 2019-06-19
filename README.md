@@ -6,4 +6,4 @@ Homework for Java programming internship application at Visma
 * [Java 11.0.2] - Java version used
 
 ## Notes
-All relevant files are in /src folder
+All java code files are in /src folder
