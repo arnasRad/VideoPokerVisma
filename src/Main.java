@@ -101,6 +101,17 @@ public class Main {
                 "time, \nthe second time there is no holding or changing any cards.");
         System.out.println("\nreference: https://igaming.org/casino/learn-how-to-play-jacks-or-better/");
 
+        System.out.println("HOW TO PLAY");
+        System.out.println("#1 Start the game by entering 1 to the console");
+        System.out.println("#2 Enter you bet. Bet cannot be greater than current total credits");
+        System.out.println("#3 Select which cards you want to hold." +
+                "\n\tYou can cancel hold mark by selecting the card again");
+        System.out.println("#4 When finished selecting - enter 0");
+        System.out.println("#5 The game will then calculate the ranking of hand with newly " +
+                "\n\tdrawn cards and output the results");
+        System.out.println("#6 Play ends when 0 is entered on betting step or " +
+                "\n\tif credit amount gets less than 0");
+
         System.out.println("\nHand ranking | prize");
         System.out.println("NOTE: Payout formula: BET * PRIZE");
         System.out.println();
