@@ -107,8 +107,8 @@ public class Main {
         System.out.println("\nreference: https://igaming.org/casino/learn-how-to-play-jacks-or-better/");
 
         System.out.println("HOW TO PLAY");
-        System.out.println("#1 Start the game by entering 1 to the console");
-        System.out.println("#2 Enter you bet. Bet cannot be greater than current total credits");
+        System.out.println("#1 Start the game by entering 1 to the console when in menu screen");
+        System.out.println("#2 Enter your bet. Bet cannot be greater than current total credits");
         System.out.println("#3 Select which cards you want to hold." +
                 "\n\tYou can cancel hold mark by selecting the card again");
         System.out.println("#4 When finished selecting - enter 0");
